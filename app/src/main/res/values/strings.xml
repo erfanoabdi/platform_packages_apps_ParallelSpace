@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Parallel Space</string>
+    <string name="app_summary">Allow running multiple instances of the same application in parallel.</string>
+
+</resources>
