@@ -23,5 +23,6 @@
     <string name="remove_space_progress_message">Removing space...</string>
 
     <string name="space_name_empty">Space name cannot be empty</string>
+    <string name="space_limit_reached">You have reached the maximum number of spaces</string>
 
 </resources>

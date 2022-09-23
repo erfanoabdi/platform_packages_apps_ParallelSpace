@@ -60,7 +60,16 @@ public class SettingsActivity extends CollapsingToolbarBaseActivity {
                             }
                         })
                         .setNegativeButton(R.string.cancel, (dialog, which) -> dialog.cancel()).create();
-                builder.show();
+
+                int limit = 9;
+                int resIdApp = getResources().getIdentifier("config_parallelSpaceMaxCount", "integer", "android");
+                if (resIdApp != 0)
+                    limit = getResources().getInteger(resIdApp);
+                if (mParallelSpaceManager.getParallelUsers().size() >= limit)
+                    Toast.makeText(SettingsActivity.this, R.string.space_limit_reached, Toast.LENGTH_SHORT).show();
+                else
+                    builder.show();
+
                 break;
         }
         return super.onOptionsItemSelected(item);
