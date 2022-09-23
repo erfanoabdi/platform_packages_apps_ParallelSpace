@@ -1,3 +1,22 @@
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="main_intro"
+        android:title="@string/intro" />
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="main_illustration" />
+
+    <PreferenceCategory
+        android:key="main_spaces"
+        android:title="@string/category_spaces">
+        <Preference
+            android:key="main_error"
+            android:title="@string/no_space"
+            android:enabled="false"
+            android:selectable="false" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

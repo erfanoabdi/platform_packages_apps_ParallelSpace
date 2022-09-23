@@ -1,5 +1,27 @@
 <resources>
     <string name="app_name">Parallel Space</string>
     <string name="app_summary">Allow running multiple instances of the same application in parallel.</string>
+    <string name="intro">Running multiple instances of the same application in separated parallel spaces</string>
+
+    <string name="category_spaces">Spaces</string>
+    <string name="no_space">No Spaces available</string>
+    <string name="space">Space</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="invalid_user_id">Invalid user</string>
+    <string name="add_space">Add Space</string>
+    <string name="remove_space">Remove Space</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="new_space_dialog_title">Create new space</string>
+    <string name="new_space_dialog_message">Enter a name for the new space</string>
+    <string name="new_space_dialog_positive">Create</string>
+    <string name="new_space_progress_message">Creating space...</string>
+
+    <string name="remove_space_dialog_title">Remove space</string>
+    <string name="remove_space_dialog_message">Are you sure you want to remove this space?</string>
+    <string name="remove_space_dialog_positive">Remove</string>
+    <string name="remove_space_progress_message">Removing space...</string>
+
+    <string name="space_name_empty">Space name cannot be empty</string>
 
 </resources>
