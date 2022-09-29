@@ -5,9 +5,6 @@
         android:key="main_intro"
         android:title="@string/intro" />
 
-    <com.android.settingslib.widget.IllustrationPreference
-        android:key="main_illustration" />
-
     <PreferenceCategory
         android:key="main_spaces"
         android:title="@string/category_spaces">
