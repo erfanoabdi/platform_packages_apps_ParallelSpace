@@ -38,4 +38,14 @@ android_app {
         "androidx.lifecycle_lifecycle-extensions",
         "com.google.android.material_material",
     ],
+    required: ["privapp_whitelist_com.libremobileos.parallelspace.xml"],
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_com.libremobileos.parallelspace.xml",
+
+    system_ext_specific: true,
+    src: "privapp_whitelist_com.libremobileos.parallelspace.xml",
+    sub_dir: "permissions",
+
 }
