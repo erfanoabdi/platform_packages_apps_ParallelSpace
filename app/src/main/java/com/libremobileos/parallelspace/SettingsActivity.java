@@ -11,9 +11,9 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 
-import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
+import com.android.internal.libremobileos.app.ParallelSpaceManager;
 
-import ink.kaleidoscope.ParallelSpaceManager;
+import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 
 public class SettingsActivity extends CollapsingToolbarBaseActivity {
     private ParallelSpaceManager mParallelSpaceManager;

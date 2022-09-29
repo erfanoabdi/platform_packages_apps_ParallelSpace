@@ -1,10 +1,10 @@
 package com.libremobileos.parallelspace;
 
-import ink.kaleidoscope.ParallelSpaceManager;
-
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.graphics.drawable.Drawable;
+
+import com.android.internal.libremobileos.app.ParallelSpaceManager;
 
 public class SpaceAppInfo {
 

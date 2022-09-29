@@ -12,9 +12,9 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceFragmentCompat;
 
-import java.util.List;
+import com.android.internal.libremobileos.app.ParallelSpaceManager;
 
-import ink.kaleidoscope.ParallelSpaceManager;
+import java.util.List;
 
 public class SettingsFragment extends PreferenceFragmentCompat {
     private ParallelSpaceManager mParallelSpaceManager;

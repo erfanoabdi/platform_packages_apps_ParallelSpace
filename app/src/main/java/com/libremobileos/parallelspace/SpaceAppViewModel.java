@@ -1,8 +1,6 @@
 package com.libremobileos.parallelspace;
 
 import android.app.Application;
-
-import ink.kaleidoscope.ParallelSpaceManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
@@ -11,6 +9,8 @@ import android.content.pm.ResolveInfo;
 
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
+
+import com.android.internal.libremobileos.app.ParallelSpaceManager;
 
 import java.util.ArrayList;
 import java.util.List;
