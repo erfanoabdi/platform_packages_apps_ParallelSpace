@@ -29,6 +29,8 @@ android_app {
         "java/**/*.java",
     ],
     system_ext_specific: true,
+    certificate: "platform",
+    privileged: true,
     static_libs: [
         "androidx.appcompat_appcompat",
         "androidx.preference_preference",
